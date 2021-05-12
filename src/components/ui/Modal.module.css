@@ -1,0 +1,41 @@
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  width: 30rem;
+  min-height: 20rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.details {
+  padding: 1rem;
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.alias {
+  margin-top: 5px;
+}
+
+.aliasEach,
+.algEach {
+  margin-left: 10px;
+}
+
+.gender,
+.culture,
+.born,
+.died {
+  margin-top: 5px;
+}
+
+.algMain {
+  margin-top: 5px;
+}

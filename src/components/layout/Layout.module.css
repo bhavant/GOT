@@ -1,0 +1,26 @@
+.main_header {
+  font-size: 60px;
+  text-align: center;
+  background-color: #77002e;
+}
+
+.main {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.fixedHeader {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
