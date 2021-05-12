@@ -19,7 +19,7 @@ test('renders app and shows empty list message', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-describe('render with context', () => {
+describe('render with context; Test Characters page', () => {
   let btnElement, listElement;
   beforeEach(async () => {
     render(
@@ -37,7 +37,7 @@ describe('render with context', () => {
 
   afterAll(() => {
     cleanup();
-  })
+  });
 
   it('more info button present', async () => {
     expect(btnElement).not.toHaveLength(0);
